@@ -188,6 +188,7 @@ export const BodyProjectsAndSkills = styled.div`
   justify-content: center;
 
   @media (max-width: 800px) {
+    max-width: 20rem;
     flex-direction: column;
   }
 `;
