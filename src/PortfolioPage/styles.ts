@@ -119,6 +119,10 @@ export const PrimaryButton = styled.a`
     opacity: 0.7;
     cursor: pointer;
   }
+
+  @media (max-width: 800px) {
+    font-size: 0.7rem;
+  }
 `;
 
 export const SecondaryButton = styled.a`
@@ -134,6 +138,10 @@ export const SecondaryButton = styled.a`
   :hover {
     opacity: 0.7;
     cursor: pointer;
+  }
+
+  @media (max-width: 800px) {
+    margin: 0.4rem;
   }
 `;
 
